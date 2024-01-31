@@ -94,7 +94,8 @@ table3.2 =
     count(Major_Geo_Region)
 ```
 
-Question 7
+Question 7:
+
 See histogram below
 ```{r}
 gspace3 = 
@@ -107,7 +108,8 @@ hist(gspace3$datadiff,
      main = 'Change in Greenspace from 2010 to 2021')
 ```
 
-Question 8
+Question 8:
+
 See plot below
 ```{r}
 plot(annual_weight_avg_2021~annual_weight_avg_2010, gspace3,
